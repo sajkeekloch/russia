@@ -1,7 +1,7 @@
-@import url('./__title/title.css');
-@import url('./__subtitle/subtitle.css');
-@import url('./__image/image.css');
-@import url('./__caption/caption.css');
+@import url('./title/title.css');
+@import url('./subtitle/subtitle.css');
+@import url('./image/image.css');
+@import url('./caption/caption.css');
 
 .lead {
     display: flex;

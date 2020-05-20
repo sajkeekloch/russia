@@ -1,5 +1,5 @@
-@import url('../header/__lang/lang.css');
-@import url('../header/__logo/logo.css');
+@import url('../header/lang/lang.css');
+@import url('../header/logo/logo.css');
 
 .header {
     align-self: center;
