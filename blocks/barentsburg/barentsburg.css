@@ -1,0 +1,12 @@
+@import url('../barentsburg/__title/title.css');
+@import url('../barentsburg/__subtitle/subtitle.css');
+@import url('../barentsburg/barentsburg-map/map.css');
+@import url('../barentsburg/text/text.css');
+
+.barentsburg {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    width: 1184px;
+    align-self: center;
+}

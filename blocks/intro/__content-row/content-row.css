@@ -1,0 +1,17 @@
+@import url('../__content-row/_text/main-text.css');
+@import url('../__content-row/_side-text/side-text.css');
+
+.intro__content-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+
+    .intro__content-row{
+        margin-top: 32px;
+    }
+
+}

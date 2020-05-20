@@ -1,0 +1,12 @@
+@import url('./_item/item.css');
+
+.emblem__container {
+    margin-top: 82px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;    
+}
+
+
+                    
+               

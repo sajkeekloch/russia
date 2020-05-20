@@ -1,0 +1,84 @@
+.places__place-website {
+    position: absolute;
+    list-style: none;
+    
+    align-self: flex-end;
+    width: 48.5%;
+    
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 472px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.places__website-mark {
+
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAA;
+}
+
+.places__website-url {
+    text-decoration: none;
+    margin-top: 16px;
+
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.places__website-url:hover {
+    opacity: .7;
+}
+
+@media (min-width: 1184px) {
+
+    .places__place-website {
+        margin-inline-start: 500px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .places__place-website {
+        margin-inline-start: 49%;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .places__place-website {
+        display: none;
+    }
+
+    .places__website-mark {
+        display: none;
+    }
+
+    .places__website-url {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 424px) {
+
+    .places__place-website {
+        display: none;
+    }
+
+    .places__website-mark {
+        display: none;
+    }
+
+    .places__website-url {
+        display: none;
+    }
+
+}

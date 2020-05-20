@@ -1,0 +1,35 @@
+@import url('./__title/title.css');
+@import url('./__subtitle/subtitle.css');
+@import url('./__image/image.css');
+@import url('./__caption/caption.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 46px;
+    align-self: center;
+}
+
+@media (min-width: 756px) and (max-width: 1024px) {
+
+    .lead {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px)  {
+
+    .lead {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 424px) {
+    
+    .lead {
+        width: 100%;
+    }
+}

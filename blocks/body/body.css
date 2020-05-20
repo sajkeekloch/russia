@@ -1,0 +1,40 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 1184px;
+    min-height: 1220px;
+    background-color: #2a2c2f;
+    margin: 0 auto;
+    font-family: Inter, Arial, sans-serif;
+
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; 
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    opacity: .7;
+}
+
+/* .paragraph {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 36px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+/* div {
+    border: 1px solid red;
+} */

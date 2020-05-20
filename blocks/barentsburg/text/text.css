@@ -1,0 +1,43 @@
+.barentsburg__text {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.barentsburg__text-main {
+    width: 380px;
+    align-self: flex-start;
+
+    font-family: Inter, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+/*
+Нужно исправить:
+Уберите фиксированную высоту.
+
+-выполнено
+*/
+
+.barentsburg__text-side {
+    margin-left: 120px;
+    width: 282px;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.barentsburg__span {
+    margin-bottom: 12px;
+
+    font-family: Inter, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaa;
+}

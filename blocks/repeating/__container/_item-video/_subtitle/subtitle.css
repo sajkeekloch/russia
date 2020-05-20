@@ -1,0 +1,63 @@
+.item-video__subtitle {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    margin-top: 18px;
+    margin-left: 30px;
+
+    min-width: 174px;
+
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .item-video__subtitle {
+        margin-top: 12px;
+        margin-left: 25px;
+        margin-bottom: 24px;
+    }
+
+    .repeating__subtitle-observatory {
+        margin-top: 7px;
+    }
+
+
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .item-video__subtitle {
+        margin-top: 12px;
+        margin-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    .repeating__subtitle-observatory {
+        margin-top: 7px;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .item-video__subtitle {
+        margin-top: 12px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+
+    .repeating__subtitle-observatory {
+        margin-top: 7px;
+    }    
+
+}
+/*
+Нужно исправить:
+Уберите фиксированную высоту.
+*/

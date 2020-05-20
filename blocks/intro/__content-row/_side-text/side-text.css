@@ -1,0 +1,19 @@
+.intro__side-text {
+    margin-left: 18px;
+    width: 283px;
+    margin-top: 0px;
+
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #fff;
+
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.intro__span {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: normal;
+}

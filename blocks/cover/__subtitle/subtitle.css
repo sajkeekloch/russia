@@ -1,0 +1,42 @@
+.cover__subtitle {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    padding-bottom: 40px;
+    width: 382px;
+    align-self: center;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: 90%;
+    }
+
+}
+/*
+Нужно исправить:
+Уберите фиксированную высоту.
+
+- выполнено
+*/

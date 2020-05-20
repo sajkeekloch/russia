@@ -1,0 +1,29 @@
+@import url('./__content-subtitle/content-subtitle.css');
+@import url('./__content-title/content-title.css');
+@import url('./__container/container.css');
+
+.repeating {
+    width: 90%;
+    margin-top: 102px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .repeating {
+        margin-top: 64px;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .repeating {
+        margin-top: 64px;
+    }
+
+}

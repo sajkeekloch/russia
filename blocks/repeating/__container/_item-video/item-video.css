@@ -1,0 +1,84 @@
+@import url('../_item-video/_duration/duration.css');
+@import url('../_item-video/_play-button/play-button.css');
+@import url('../_item-video/_subtitle/subtitle.css');
+@import url('../_item-video/_title/title.css');
+
+
+.item-video {
+    text-decoration: none;
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.5) inset;
+    background-image: url('./../../../../images/video/colors-of-kamchatka.png');
+    width: calc((100% - 8px) / 2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 323px;
+
+    display: block;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.item-video:nth-child(2) { 
+    text-decoration: none;
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.5) inset;
+    background-image: url('./../../../../images/video/observatory.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc((100% - 8px) / 2);
+
+    display: block;
+    flex-direction: column;
+}
+
+.item-video:hover {
+    opacity: .7;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .item-video {
+        min-height: 200px;
+    }
+    
+
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .item-video {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .item-video:nth-child(2) {
+        width: 100%;
+        min-height: 200px;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 424px) {
+
+    .item-video {
+        width: 100%;
+        min-height: 192px;
+    }
+
+    .item-video:nth-child(2) {
+        width: 100%;
+        min-height: 192px;
+    }
+
+}
+/*
+Нужно исправить:
+  Замените height на min-height
+*/
+
+/*
+Нужно исправить:
+Путь до изображения background-image: url('../../../../images/video/colors-of-kamchatka.png');
+*/

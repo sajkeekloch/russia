@@ -1,0 +1,159 @@
+.comment {
+    /* display: flex; */
+    width: calc((100% - 136px)/3);
+    justify-content: space-between;
+
+    
+    flex-direction: column;
+}
+
+.comment__photo {
+    width: 97px;
+}
+
+.comment__item-quote {
+    margin-top: 42px;
+    width: 100%;
+
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.comment__item-author {
+    margin-top: 24px;
+    
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.repeating_hide {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .comment {
+        display: flex;
+        align-content: center;
+        align-self: center;
+        margin-top: 48px;
+        width: 100%;
+    }
+    
+    .comment__photo {
+        align-self: center;
+    }
+
+    .comment__item-author {
+        align-self: center;
+    }
+
+    .comment__item-quote {
+        align-self: center;
+        text-align: center;
+        margin-top: 24px;
+        width: 60%;
+    }
+
+    .repeating_hide {
+        display: block;
+        margin-top: 24px;
+        align-self: center;
+        
+        font-size: 14px;
+        line-height: 23px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .comment__item-author {
+        display: none;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .comment {
+        display: flex;
+        align-self: center;
+        margin-top: 48px;
+        width: 100%;
+    }
+    
+    .comment__photo {
+        align-self: center;
+    }
+
+    .comment__item-author {
+        align-self: center;
+    }
+
+    .comment__item-quote {
+        align-self: center;
+        text-align: center;
+        margin-top: 24px;
+        width: 60%;
+    }
+
+    .repeating_hide {
+        display: block;
+        margin-top: 16px;
+        align-self: center;
+        
+        font-size: 14px;
+        line-height: 23px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .comment__item-author {
+        display: none;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .comment {
+        display: flex;
+        align-self: center;
+        margin-top: 48px;
+        width: 100%;
+    }
+    
+    .comment__photo {
+        align-self: center;
+    }
+
+    .comment__item-author {
+        align-self: center;
+    }
+
+    .comment__item-quote {
+        align-self: center;
+        text-align: center;
+        margin-top: 24px;
+        width: 60%;
+        text-align: center;
+    }
+
+    .repeating_hide {
+        display: block;
+        margin-top: 24px;
+        align-self: center;
+        
+        font-size: 14px;
+        line-height: 23px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .comment__item-author {
+        display: none;
+    }
+
+}

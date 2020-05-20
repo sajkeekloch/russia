@@ -1,0 +1,62 @@
+/* @import url('../__container/_item-addictional/item-addictional.css'); */
+@import url('../__container/_item-comments/item-comments.css');
+@import url('../__container/_item-video/item-video.css');
+
+
+.repeating__video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 72px;
+}
+
+.repeating__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 72px;
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .repeating__video-container {
+        margin-top: 56px;
+    }
+
+    .comments {
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .repeating__video-container {
+        margin-top: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .comments {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .repeating__video-container {
+        margin-top: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .comments {
+        flex-direction: column;
+    }
+
+}

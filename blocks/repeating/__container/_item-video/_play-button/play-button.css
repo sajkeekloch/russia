@@ -1,0 +1,35 @@
+.item-video__play-button {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 41px;
+    height: 41px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .item-video__play-button {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .item-video__play-button {
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .item-video__play-button {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+}

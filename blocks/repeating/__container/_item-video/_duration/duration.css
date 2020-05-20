@@ -1,0 +1,50 @@
+.item-video__duration {
+    margin-top: 94px;
+    margin-left: 30px;
+    
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .item-video__duration {
+        margin-left: 25px;
+        margin-top: 36px;
+    }
+
+    .duration-observatory {
+        margin-top: 17px;
+    }
+
+
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .item-video__duration {
+        margin-left: 24px;
+        margin-top: 36px;
+    }
+
+    .repeating__duration-observatory {
+        margin-top: 13px;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .item-video__duration {
+        margin-left: 16px;
+        margin-top: 36px;
+    }
+
+    .repeating__duration-observatory {
+        margin-top: 13px;
+    }
+
+}
