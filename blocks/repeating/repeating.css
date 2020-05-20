@@ -1,6 +1,6 @@
-@import url('./__content-subtitle/content-subtitle.css');
-@import url('./__content-title/content-title.css');
-@import url('./__container/container.css');
+@import url('./content-subtitle/content-subtitle.css');
+@import url('./content-title/content-title.css');
+@import url('./container/container.css');
 
 .repeating {
     width: 90%;

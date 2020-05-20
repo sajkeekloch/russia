@@ -1,5 +1,5 @@
-@import url('../emblem/__title/title.css');
-@import url('../emblem/__container/container.css');
+@import url('../emblem/title/title.css');
+@import url('../emblem/container/container.css');
 
 .emblem {
     margin-top: 82px;

@@ -1,5 +1,5 @@
-@import url('../__place/__place-header/place_header.css');
-@import url('../__place/__place-content/place_content.css');
+@import url('./place-header/place_header.css');
+@import url('./place-content/place_content.css');
 
 
 .places__place {

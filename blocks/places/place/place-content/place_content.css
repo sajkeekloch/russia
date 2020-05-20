@@ -1,5 +1,5 @@
-@import url('../__place-content/_image/places__place_image.css');
-@import url('../__place-content/_paragraph/places__place-paragraph.css');
+@import url('./image/places__place_image.css');
+@import url('./paragraph/places__place-paragraph.css');
 
 .places__place-content {
     margin-top: 40px;

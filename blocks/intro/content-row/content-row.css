@@ -1,5 +1,5 @@
-@import url('../__content-row/_text/main-text.css');
-@import url('../__content-row/_side-text/side-text.css');
+@import url('./text/main-text.css');
+@import url('./side-text/side-text.css');
 
 .intro__content-row {
     width: 100%;

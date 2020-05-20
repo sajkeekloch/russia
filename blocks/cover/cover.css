@@ -1,5 +1,5 @@
-@import url('../cover/__title/title.css');
-@import url('../cover/__subtitle/subtitle.css');
+@import url('../cover/title/title.css');
+@import url('../cover/subtitle/subtitle.css');
 
 .cover {
     display: flex;

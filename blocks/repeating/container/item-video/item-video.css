@@ -1,7 +1,7 @@
-@import url('../_item-video/_duration/duration.css');
-@import url('../_item-video/_play-button/play-button.css');
-@import url('../_item-video/_subtitle/subtitle.css');
-@import url('../_item-video/_title/title.css');
+@import url('./duration/duration.css');
+@import url('./play-button/play-button.css');
+@import url('./subtitle/subtitle.css');
+@import url('./title/title.css');
 
 
 .item-video {

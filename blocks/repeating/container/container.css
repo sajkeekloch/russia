@@ -1,6 +1,6 @@
 /* @import url('../__container/_item-addictional/item-addictional.css'); */
-@import url('../__container/_item-comments/item-comments.css');
-@import url('../__container/_item-video/item-video.css');
+@import url('./item-comments/item-comments.css');
+@import url('./item-video/item-video.css');
 
 
 .repeating__video-container {

@@ -1,4 +1,4 @@
-@import url('../places/__place/place.css');
+@import url('./place/place.css');
 
 .places {
     width: 91%;

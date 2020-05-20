@@ -1,5 +1,5 @@
-@import url('../__place-header/_title/places__title.css');
-@import url('../__place-header/_website/places__place-website.css');
+@import url('./title/places__title.css');
+@import url('./website/places__place-website.css');
 
 .places__place-header {
     width: 100%;
